@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+
+}
+
+
+
+body{
+    font-size: 100%;
+    background: linear-gradient(90deg, rgb(108, 84, 113) 0%, rgb(173, 172, 186) 100%, rgb(240, 250, 248) 100%);
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.header-img{
+    height: 165px;
+
+}
+
+
+.navbar{
+    display: flex;
+    gap: 42px;
+}
+
+.nav-item{
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+
+}
+
+
+.container{
+    margin-bottom: 48px;
+    border-top: 0.2px solid white;
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-principal-text{
+    display: fkex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.container-principal-text-1{
+    font-weight: 500;
+    font-size: 74px;
+    color: #FFF2E7;
+}
+
+
+.container-principal-text-2{
+    font-weight: 400;
+    font-size: 54px;
+    color: #FFF2E7;
+}
+
+
+.talk-btn{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px;
+    border-radius: 12px;
+    color: black;
+    font-size: 34px
+}
+
+.photo-principla{
+    height: 430px;
+}
